@@ -18,10 +18,9 @@ A simple command-line interface (CLI) application for generating text (blog titl
 
 ```
 offline_writing_assistant/
-├── src/
-│   └── writing_assistant.py  # Main CLI application script
 ├── outputs/
 │   └── generated_text.txt    # Generated text outputs
+├── writing_assistant.py      # Main CLI application script
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation (this file)
 ```
@@ -46,9 +45,8 @@ offline_writing_assistant/
    - Create the folder structure as shown above:
      ```
      offline_writing_assistant/
-     ├── src/
-     │   └── writing_assistant.py
      ├── outputs/
+     ├── writing_assistant.py
      ├── requirements.txt
      └── README.md
      ```
